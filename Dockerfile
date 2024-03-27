@@ -3,7 +3,6 @@ ARG NODE_VERSION=20.9.0
 FROM node:${NODE_VERSION}-slim as base
 
 ARG PORT=3001
-
 ENV NODE_ENV=production
 
 WORKDIR /src
